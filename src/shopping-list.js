@@ -1,8 +1,7 @@
+import store from './store';
+import api from './api';
+import $ from 'jquery';
 
-
-/* global store, api, $ */
-
-// eslint-disable-next-line no-unused-vars
 function generateError(message) {
   return `
       <section class="error-content">
