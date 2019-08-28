@@ -1,4 +1,6 @@
 'use strict';
+
+import $ from 'jquery';
 /* global shoppingList, store, api */
 
 $(document).ready(function() {
